@@ -1,0 +1,63 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Joe Krachey\Documents\ece453-staff\S23\MCU\ECE453_Carrier.PcbDoc
+Date     : 1/6/2023
+Time     : 11:08:31 AM
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+   Violation between Clearance Constraint: (0.005mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Pad MD400-1(103.879mm,206.229mm) on Top Layer 
+   Violation between Clearance Constraint: (0.005mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Pad MD400-1(103.879mm,206.229mm) on Top Layer 
+   Violation between Clearance Constraint: (0.005mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Pad MD400-43(90.641mm,206.229mm) on Top Layer 
+   Violation between Clearance Constraint: (0.005mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Pad MD400-43(90.641mm,206.229mm) on Top Layer 
+   Violation between Clearance Constraint: (0.12mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Track (103.879mm,206.229mm)(103.994mm,206.114mm) on Top Layer 
+   Violation between Clearance Constraint: (0.12mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Track (103.879mm,206.229mm)(103.994mm,206.114mm) on Top Layer 
+   Violation between Clearance Constraint: (0.12mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Track (83.822mm,206.229mm)(90.641mm,206.229mm) on Top Layer 
+   Violation between Clearance Constraint: (0.12mm < 0.2mm) Between Area Fill (86.26mm,206.539mm) (108.26mm,215.159mm) on Keep-Out Layer And Track (83.822mm,206.229mm)(90.641mm,206.229mm) on Top Layer 
+Rule Violations :8
+
+Processing Rule : Clearance Constraint (Gap=0.305mm) (All),(InPolygon)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=12mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.03mm) (Max=6.35mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.178mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.178mm) Between Pad C402-1(113.315mm,208.28mm) on Top Layer And Pad C402-2(111.865mm,208.28mm) on Top Layer [Top Solder] Mask Sliver [0.097mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.178mm) Between Pad C403-1(113.315mm,200.66mm) on Top Layer And Pad C403-2(111.865mm,200.66mm) on Top Layer [Top Solder] Mask Sliver [0.097mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.093mm < 0.178mm) Between Via (107.95mm,201.719mm) from Top Layer to Bottom Layer And Via (108.585mm,202.565mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.093mm] / [Bottom Solder] Mask Sliver [0.093mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.122mm < 0.178mm) Between Via (85.387mm,137.028mm) from Top Layer to Bottom Layer And Via (85.387mm,138.115mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.122mm] / [Bottom Solder] Mask Sliver [0.122mm]
+Rule Violations :4
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (InNet('5.0V'))
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (InNet('3.3V'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=22mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 12
+Waived Violations : 0
+Time Elapsed        : 00:00:02
