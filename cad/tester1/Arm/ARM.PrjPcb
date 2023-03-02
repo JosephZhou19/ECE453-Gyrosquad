@@ -68,7 +68,7 @@ DocumentUniqueId=UUCNXNPW
 [Document2]
 DocumentPath=02-MCU.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=400
+AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -117,10 +117,10 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=Power.SchDoc
+DocumentPath=03-Power.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=5
@@ -134,13 +134,13 @@ GenerateClassCluster=0
 DocumentUniqueId=SXMQMTOV
 
 [Document6]
-DocumentPath=Accel.SchDoc
+DocumentPath=04-Accel.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
