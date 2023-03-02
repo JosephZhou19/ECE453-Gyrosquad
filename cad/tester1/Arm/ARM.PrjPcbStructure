@@ -1,9 +1,4 @@
 Record=TopLevelDocument|FileName=01-Revision_History_and_Contents.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=01-Revision_History_and_Contents.SchDoc|FileName=02-MCU.SchDoc|SheetNumber=2
-<<<<<<< HEAD:cad/tester1/Gun/ECE453-MCU.PrjPcbStructure
-Record=NoMainPathDocument|SourceDocument=01-Revision_History_and_Contents.SchDoc|FileName=HallEffectSensor.SchDoc|SheetNumber= 
-Record=NoMainPathDocument|SourceDocument=01-Revision_History_and_Contents.SchDoc|FileName=Motors.SchDoc|SheetNumber= 
-=======
 Record=NoMainPathDocument|SourceDocument=01-Revision_History_and_Contents.SchDoc|FileName=Accel.SchDoc|SheetNumber= 
->>>>>>> b5f8ff3cec8a119d3e267fd6edc128ca3d1b284f:cad/tester1/Arm/ARM.PrjPcbStructure
 Record=NoMainPathDocument|SourceDocument=01-Revision_History_and_Contents.SchDoc|FileName=Power.SchDoc|SheetNumber= 
