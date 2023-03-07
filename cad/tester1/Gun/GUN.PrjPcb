@@ -117,23 +117,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=ECE453-MCU.BomDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=04-HallEffectSensor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -150,8 +133,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FWSUXMZD
 
-[Document7]
-DocumentPath=05-StepperMotors.SchDoc
+[Document6]
+DocumentPath=05-StepperMotor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=500
 AnnotationIndexControlEnabled=1
@@ -167,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LQKVKSCP
 
-[Document8]
+[Document7]
 DocumentPath=06-ServoMotor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=600
@@ -1319,14 +1302,17 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=3.3V|NetColor=$00FF6EFF
-Net2=NetName=3.3V_ACC|NetColor=$00A6D07C
-Net3=NetName=3.3V_CT|NetColor=$000083FD
-Net4=NetName=3.3V_MCU|NetColor=$0001F1FD
-Net5=NetName=3.3V_REG|NetColor=$006E6EFF
-Net6=NetName=3.3V_Temp|NetColor=$00DB208A
-Net7=NetName=3.3V_USB|NetColor=$005C8517
-Net8=NetName=5.0V|NetColor=$00164FDE
+Net1=NetName=24V|NetColor=$000099FF
+Net2=NetName=3.3V|NetColor=$00FF6EFF
+Net3=NetName=3.3V_ACC|NetColor=$00A6D07C
+Net4=NetName=3.3V_CT|NetColor=$000083FD
+Net5=NetName=3.3V_MCU|NetColor=$0001F1FD
+Net6=NetName=3.3V_REG|NetColor=$006E6EFF
+Net7=NetName=3.3V_Temp|NetColor=$00DB208A
+Net8=NetName=3.3V_USB|NetColor=$005C8517
+Net9=NetName=5.0V|NetColor=$00164FDE
+Net10=NetName=5V|NetColor=clRed
+Net11=NetName=8.4V|NetColor=clLime
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
