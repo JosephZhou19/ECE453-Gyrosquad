@@ -1,0 +1,13 @@
+Change Component Designator: Old Designator=C? New Designator=C800
+Change Component Designator: Old Designator=CBoot 100nF New Designator=CBoot 800
+Change Component Designator: Old Designator=Ccomp2 6.8pF New Designator=Ccomp800
+Change Component Designator: Old Designator=Ccomp 390pF New Designator=Ccomp 800
+Change Component Designator: Old Designator=Cin 10uF New Designator=Cin 800
+Change Component Designator: Old Designator=Cout 22uF New Designator=Cout 800
+Change Component Designator: Old Designator=Css 8.2nF New Designator=Css 800
+Change Component Designator: Old Designator=D1 5A New Designator=D800
+Change Component Designator: Old Designator=L1 4.7uH New Designator=L800
+Change Component Designator: Old Designator=RComp 84.5K New Designator=RComp 800
+Change Component Designator: Old Designator=Rfbb New Designator=Rfbb800
+Change Component Designator: Old Designator=Rfbt New Designator=Rfbt800
+Change Component Designator: Old Designator=U1 New Designator=U800
