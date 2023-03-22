@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV9052IDR
+D Dual 5MHz, 15V/us high slew-rate, RRIO op amp
+K
+F http://www.ti.com/lit/gpn/TLV9052
+$ENDCMP
+#
+#End Doc Library

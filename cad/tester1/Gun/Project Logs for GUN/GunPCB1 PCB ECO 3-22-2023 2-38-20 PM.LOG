@@ -1,0 +1,125 @@
+Added Component: Designator=J400(1760520000)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Weidmuller"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1760520000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1760520000/Weidmuller/view-part/423520/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "281-1883-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CONN_1935187_PXC
+Add Component: Footprint Not Found 1760520000
+Added Component: Designator=R404(RESC2012X60N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RT0805DRE0714K5L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-2788-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RES_ERJ-PB6B8452V
+Added Component: Designator=U400(D0008A_N)
+Add component (AddParameter): Name = "Category"; Value = "Amplifiers - Op Amps, Buffer, Instrumentation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv9052&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv9052&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TLV9052IDR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9052IDR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing"; Value = "1=0.93000, 10=0.82200, 25=0.77240, 100=0.63020, 250=0.58540, 500=0.49820, 1000=0.39856 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock"; Value = "44741"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-53049-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-53049-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U401(D0008A_N)
+Add component (AddParameter): Name = "Category"; Value = "Amplifiers - Op Amps, Buffer, Instrumentation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv9052&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv9052&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TLV9052IDR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9052IDR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing"; Value = "1=0.93000, 10=0.82200, 25=0.77240, 100=0.63020, 250=0.58540, 500=0.49820, 1000=0.39856 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock"; Value = "44741"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-53049-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U403(SOT_1IDCKR_TEX)
+Add component (AddParameter): Name = "Category"; Value = "Amplifiers - Op Amps, Buffer, Instrumentation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TLV9051IDCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV9051IDCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing"; Value = "1=0.62000, 10=0.54200, 25=0.50920, 100=0.41570, 250=0.38612, 500=0.32860, 1000=0.26288 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock"; Value = "2075"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-TLV9051IDCKRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-TLV9051IDCKRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found DDA8_3X2P13
+Added Pin To Net: NetName=hall_vdd Pin=J400-1
+Added Pin To Net: NetName=hall_gnd Pin=J400-2
+Added Pin To Net: NetName=hall_sig Pin=J400-3
+Add Pin To Net: Unknown Pin: Pin J500-1
+Add Pin To Net: Unknown Pin: Pin J500-2
+Add Pin To Net: Unknown Pin: Pin J500-3
+Add Pin To Net: Unknown Pin: Pin J500-4
+Add Pin To Net: Unknown Pin: Pin J600-1
+Add Pin To Net: Unknown Pin: Pin J600-2
+Add Pin To Net: Unknown Pin: Pin J600-3
+Add Pin To Net: Unknown Pin: Pin L800-1
+Add Pin To Net: Unknown Pin: Pin L800-2
+Added Pin To Net: NetName=NetR404_1 Pin=R404-1
+Added Pin To Net: NetName=NetC403_2 Pin=R404-2
+Add Pin To Net: Unknown Pin: Pin RComp 800-1
+Add Pin To Net: Unknown Pin: Pin RComp 800-2
+Add Pin To Net: Unknown Pin: Pin Rfbb800-1
+Add Pin To Net: Unknown Pin: Pin Rfbb800-2
+Add Pin To Net: Unknown Pin: Pin Rfbt800-1
+Add Pin To Net: Unknown Pin: Pin Rfbt800-2
+Added Pin To Net: NetName=P10.6 Pin=U400-1
+Added Pin To Net: NetName=NetC405_2 Pin=U400-2
+Added Pin To Net: NetName=NetU400_3 Pin=U400-3
+Added Pin To Net: NetName=NetC404_2 Pin=U401-1
+Added Pin To Net: NetName=NetR404_1 Pin=U401-2
+Added Pin To Net: NetName=NetU400_3 Pin=U401-3
+Added Pin To Net: NetName=NetU400_3 Pin=U403-1
+Added Pin To Net: NetName=GND Pin=U403-2
+Added Pin To Net: NetName=NetC407_1 Pin=U403-3
+Added Pin To Net: NetName=NetU400_3 Pin=U403-4
+Added Pin To Net: NetName=3.3V Pin=U403-5
+Add Pin To Net: Unknown Pin: Pin U800-1
+Add Pin To Net: Unknown Pin: Pin U800-2
+Add Pin To Net: Unknown Pin: Pin U800-4
+Add Pin To Net: Unknown Pin: Pin U800-5
+Add Pin To Net: Unknown Pin: Pin U800-6
+Add Pin To Net: Unknown Pin: Pin U800-7
+Add Pin To Net: Unknown Pin: Pin U800-8
+Added Member To Class: ClassName=04-HallEffectSensor Member=Component J400 1760520000
+Add Class Member: Failed to add class member : Component J500 1935187
+Add Class Member: Failed to add class member : Component J600 1760520000
+Add Class Member: Failed to add class member : Component L800 SDR1307-4R7ML
+Added Member To Class: ClassName=04-HallEffectSensor Member=Component R404 14.5k
+Add Class Member: Failed to add class member : Component RComp 800 ERJ-PB6B8452V
+Add Class Member: Failed to add class member : Component Rfbb800 RA73F2A1K24BTD
+Add Class Member: Failed to add class member : Component Rfbt800 RA73F2A10K2BTD
+Added Member To Class: ClassName=04-HallEffectSensor Member=Component U400 TLV9052IDR
+Added Member To Class: ClassName=04-HallEffectSensor Member=Component U401 TLV9052IDR
+Added Member To Class: ClassName=04-HallEffectSensor Member=Component U403 TLV9051IDCKR
+Add Class Member: Failed to add class member : Component U800 TPS54332DDAR

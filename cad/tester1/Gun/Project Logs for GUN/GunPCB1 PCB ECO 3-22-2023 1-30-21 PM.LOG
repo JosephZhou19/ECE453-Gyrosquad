@@ -1,0 +1,95 @@
+Add Component: Footprint Not Found WCAP-CSGP_885012007027
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found CONN3_10S05_XPP
+Add Component: Footprint Not Found 1760520000
+Add Component: Footprint Not Found CONN_1935187_PXC
+Add Component: Footprint Not Found 1760520000
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RES_ERJ-PB6B8452V
+Add Component: Footprint Not Found D0008A_N
+Add Component: Footprint Not Found D0008A_N
+Add Component: Footprint Not Found SOT_1IDCKR_TEX
+Add Component: Footprint Not Found DDA8_3X2P13
+Add Pin To Net: Unknown Pin: Pin Ccomp800-1
+Add Pin To Net: Unknown Pin: Pin Ccomp800-2
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D301-1
+Add Pin To Net: Unknown Pin: Pin D301-2
+Add Pin To Net: Unknown Pin: Pin D303-1
+Add Pin To Net: Unknown Pin: Pin D303-2
+Add Pin To Net: Unknown Pin: Pin D400-1
+Add Pin To Net: Unknown Pin: Pin D400-2
+Add Pin To Net: Unknown Pin: Pin D401-1
+Add Pin To Net: Unknown Pin: Pin D401-2
+Add Pin To Net: Unknown Pin: Pin D500-1
+Add Pin To Net: Unknown Pin: Pin D500-2
+Add Pin To Net: Unknown Pin: Pin D600-1
+Add Pin To Net: Unknown Pin: Pin D600-2
+Add Pin To Net: Unknown Pin: Pin J300-1
+Add Pin To Net: Unknown Pin: Pin J300-2
+Add Pin To Net: Unknown Pin: Pin J300-3
+Add Pin To Net: Unknown Pin: Pin J400-1
+Add Pin To Net: Unknown Pin: Pin J400-2
+Add Pin To Net: Unknown Pin: Pin J400-3
+Add Pin To Net: Unknown Pin: Pin J500-1
+Add Pin To Net: Unknown Pin: Pin J500-2
+Add Pin To Net: Unknown Pin: Pin J500-3
+Add Pin To Net: Unknown Pin: Pin J500-4
+Add Pin To Net: Unknown Pin: Pin J600-1
+Add Pin To Net: Unknown Pin: Pin J600-2
+Add Pin To Net: Unknown Pin: Pin J600-3
+Add Pin To Net: Unknown Pin: Pin L800-1
+Add Pin To Net: Unknown Pin: Pin L800-2
+Add Pin To Net: Unknown Pin: Pin R404-1
+Add Pin To Net: Unknown Pin: Pin R404-2
+Add Pin To Net: Unknown Pin: Pin RComp 800-1
+Add Pin To Net: Unknown Pin: Pin RComp 800-2
+Add Pin To Net: Unknown Pin: Pin Rfbb800-1
+Add Pin To Net: Unknown Pin: Pin Rfbb800-2
+Add Pin To Net: Unknown Pin: Pin Rfbt800-1
+Add Pin To Net: Unknown Pin: Pin Rfbt800-2
+Add Pin To Net: Unknown Pin: Pin U400-1
+Add Pin To Net: Unknown Pin: Pin U400-2
+Add Pin To Net: Unknown Pin: Pin U400-3
+Add Pin To Net: Unknown Pin: Pin U401-1
+Add Pin To Net: Unknown Pin: Pin U401-2
+Add Pin To Net: Unknown Pin: Pin U401-3
+Add Pin To Net: Unknown Pin: Pin U403-1
+Add Pin To Net: Unknown Pin: Pin U403-2
+Add Pin To Net: Unknown Pin: Pin U403-3
+Add Pin To Net: Unknown Pin: Pin U403-4
+Add Pin To Net: Unknown Pin: Pin U403-5
+Add Pin To Net: Unknown Pin: Pin U800-1
+Add Pin To Net: Unknown Pin: Pin U800-2
+Add Pin To Net: Unknown Pin: Pin U800-4
+Add Pin To Net: Unknown Pin: Pin U800-5
+Add Pin To Net: Unknown Pin: Pin U800-6
+Add Pin To Net: Unknown Pin: Pin U800-7
+Add Pin To Net: Unknown Pin: Pin U800-8
+Add Class Member: Failed to add class member : Component Ccomp800 885012007027
+Add Class Member: Failed to add class member : Component D300 LTST-C191KRKT
+Add Class Member: Failed to add class member : Component D301 LTST-C191KRKT
+Add Class Member: Failed to add class member : Component D303 LTST-C191KRKT
+Add Class Member: Failed to add class member : Component D400 LTST-C191KRKT
+Add Class Member: Failed to add class member : Component D401 LTST-C191KRKT
+Add Class Member: Failed to add class member : Component D500 LTST-C191KRKT
+Add Class Member: Failed to add class member : Component D600 LTST-C191KRKT
+Add Class Member: Failed to add class member : Component J300 VR10S05
+Add Class Member: Failed to add class member : Component J400 1760520000
+Add Class Member: Failed to add class member : Component J500 1935187
+Add Class Member: Failed to add class member : Component J600 1760520000
+Add Class Member: Failed to add class member : Component L800 SDR1307-4R7ML
+Add Class Member: Failed to add class member : Component R404 14.5k
+Add Class Member: Failed to add class member : Component RComp 800 ERJ-PB6B8452V
+Add Class Member: Failed to add class member : Component Rfbb800 RA73F2A1K24BTD
+Add Class Member: Failed to add class member : Component Rfbt800 RA73F2A10K2BTD
+Add Class Member: Failed to add class member : Component U400 TLV9052IDR
+Add Class Member: Failed to add class member : Component U401 TLV9052IDR
+Add Class Member: Failed to add class member : Component U403 TLV9051IDCKR
+Add Class Member: Failed to add class member : Component U800 TPS54332DDAR

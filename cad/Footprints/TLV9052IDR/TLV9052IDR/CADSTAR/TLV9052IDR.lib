@@ -1,0 +1,16 @@
+.TLV9052IDR :1 ;Dual 5MHz, 15V/us high slew-rate, RRIO op amp
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="OUT1" 2="IN1-" 3="IN1+" 4="V-" 5="IN2+" 6="IN2-" 7="OUT2" 8="V+"
+*MXP 8
+*DFN TLV9052IDR
+~!Mouser Part Number (595-TLV9052IDR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9052IDR?qs=qSfuJ%252Bfl%2Fd40FZ%252BJUm2hDA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV9052IDR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TLV9052)
+~!Height (1.75mm)
+~!3D_Model (TLV9052IDR)
+TLV9052IDR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
