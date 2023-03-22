@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV9052IDR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV9052IDR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-TLV9052IDR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9052IDR?qs=qSfuJ%252Bfl%2Fd40FZ%252BJUm2hDA%3D%3D", "Dual 5MHz, 15V/us high slew-rate, RRIO op amp", "http://www.ti.com/lit/gpn/TLV9052", "1.75 mm"
+END_PART
+
+END.
