@@ -1,0 +1,67 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "IND_BOURNS_SDR1307")
+Pad (Name "1") (Location -182, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 187, 551) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 182, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 187, 551) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -285.5, -285.5) (End -285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start -285.5, 285.5) (End 285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, 285.5) (End 285.5, -285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, -285.5) (End -285.5, -285.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-285.5, -285.5)
+Point (-285.5, 285.5)
+Point (285.5, 285.5)
+Point (285.5, -285.5)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (391, 391)
+Point (391, -391)
+Point (-391, -391)
+Point (-391, 391)
+EndPolygon
+Line (Width 6) (Start -75.39999962, -271) (End 75.39999962, -271) (Layer TopOverlay) 
+Line (Width 6) (Start 75.39999962, 271) (End -75.39999962, 271) (Layer TopOverlay) 
+Text (Location -318.5, -50) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "*")
+Line (Width 1) (Start -133, 266) (End -266, 133) (Layer Mechanical13) 
+Line (Width 1) (Start -266, 133) (End -266, -133) (Layer Mechanical13) 
+Line (Width 1) (Start -266, -133) (End -133, -266) (Layer Mechanical13) 
+Line (Width 1) (Start -133, -266) (End 133, -266) (Layer Mechanical13) 
+Line (Width 1) (Start 133, -266) (End 266, -133) (Layer Mechanical13) 
+Line (Width 1) (Start 266, -133) (End 266, 133) (Layer Mechanical13) 
+Line (Width 1) (Start 266, 133) (End 133, 266) (Layer Mechanical13) 
+Line (Width 1) (Start 133, 266) (End -133, 266) (Layer Mechanical13) 
+Text (Location -258.5, -50) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "*")
+Step (Name IND_BOURNS_SDR1307.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "SDR1307-4R7ML") (PartCount 1) (DesPrefix "L?")
+Pin (Location 500, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 0) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 200, 0) (End 200, 50) (Part 1)
+Line (Width 8) (Start 300, 0) (End 300, 50) (Part 1)
+Line (Width 8) (Start 500, 0) (End 500, 50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 100, 50) (Part 1)
+Line (Width 8) (Start 400, 0) (End 400, 50) (Part 1)
+Arc (Width 10) (Radius 50) (Location 250, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 10) (Radius 50) (Location 150, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 10) (Radius 50) (Location 350, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 10) (Radius 50) (Location 450, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2023 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Bourns Electronics") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "SDR1307-4R7ML") (Part 1)
+Parameter (Name "RefDes") (Location 275, 200) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "Type") (Location 275, -225) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "SDR1307-4R7ML") (Part 1)
+EndComponent
+EndComponents

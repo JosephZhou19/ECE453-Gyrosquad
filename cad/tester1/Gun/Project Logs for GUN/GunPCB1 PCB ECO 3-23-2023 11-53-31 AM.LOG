@@ -1,0 +1,12 @@
+Add Component: Footprint Not Found PCBComponent_1
+Add Pin To Net: Unknown Pin: Pin L800-1
+Add Pin To Net: Unknown Pin: Pin L800-2
+Add Pin To Net: Unknown Pin: Pin R801-1
+Add Pin To Net: Unknown Pin: Pin R801-2
+Add Class Member: Failed to add class member : Component L800 SDR1307-4R7ML
+Add Class Member: Failed to add class member : Component R801 Component_2
+Add Class Member: Failed to add class member : Component  RA73F2A10K2BTD
+Added Room: Name=05-StepperMotor
+Added Room: Name=06-ServoMotor
+Added Room: Name=07-UARTBridge
+Added Room: Name=08-SwitchingRegulator

@@ -1,0 +1,13 @@
+Change Component Comment : Designator=Designator2 Old Comment=Comment New Comment=Component_2
+Change Component Designator: OldDesignator=Designator2 NewDesignator=R801
+Add Pin To Net: Unknown Pin: Pin L800-1
+Add Pin To Net: Unknown Pin: Pin L800-2
+Added Pin To Net: NetName=NetL800_1 Pin=R801-1
+Added Pin To Net: NetName=NetR800_2 Pin=R801-2
+Add Class Member: Failed to add class member : Component L800 SDR1307-4R7ML
+Added Member To Class: ClassName=08-SwitchingRegulator Member=Component R801 Component_2
+Add Class Member: Failed to add class member : Component  RA73F2A10K2BTD
+Added Room: Name=05-StepperMotor
+Added Room: Name=06-ServoMotor
+Added Room: Name=07-UARTBridge
+Added Room: Name=08-SwitchingRegulator
