@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=7.4V Pin=R800-1
+Change Component Comment : Designator=R801 Old Comment=Component_2 New Comment=10.2k
+Added Pin To Net: NetName=7.4V Pin=L800-1
+Added Pin To Net: NetName=GND Pin=R800-1
+Added Pin To Net: NetName=7.4V Pin=R801-1
