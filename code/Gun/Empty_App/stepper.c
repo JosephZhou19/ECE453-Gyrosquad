@@ -24,7 +24,6 @@ cyhal_gpio_callback_data_t stepper_homen_cb_data =
 void stepper_homen_handler(void* handler_arg, cyhal_gpio_event_t event)
 {
 	ALERT_STEPPER_HOMEN= true;
-	cy_rslt_t rslt;
     /* Toggle LED401 when an interrupt has been detected */
 	cyhal_gpio_write(STEPPER_RESETN, true);
 }
@@ -39,7 +38,6 @@ static void stepper_homen_irq_init(void)
 	/* You will need to examine the HAL API to determine how to
 	 * register a callback function when an interrupt has been detected
 	 */
-	cy_rslt_t rslt;
 	cyhal_gpio_register_callback(STEPPER_HOMEN, &stepper_homen_cb_data);
 	/* You will need to examine the HAL API to enable falling edge event to
 	 * generate an interrupt
