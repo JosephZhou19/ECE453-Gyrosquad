@@ -1,0 +1,16 @@
+Added Component: Designator=Rfbb800(RES_ERJ1TNF1241U)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ERJ1TNF1241U"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin L800-1
+Add Pin To Net: Unknown Pin: Pin L800-2
+Added Pin To Net: NetName=7.4V Pin=Rfbb800-1
+Added Pin To Net: NetName=NetRfbb800_2 Pin=Rfbb800-2
+Add Pin To Net: Unknown Pin: Pin Rfbt800-1
+Add Pin To Net: Unknown Pin: Pin Rfbt800-2
+Add Class Member: Failed to add class member : Component L800 SDR1307-4R7ML
+Added Member To Class: ClassName=08-SwitchingRegulator Member=Component Rfbb800 RA73F2A1K24BTD
+Add Class Member: Failed to add class member : Component Rfbt800 RA73F2A10K2BTD

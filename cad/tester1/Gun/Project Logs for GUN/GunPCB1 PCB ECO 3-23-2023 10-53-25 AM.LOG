@@ -1,0 +1,9 @@
+Add Component: Footprint Not Found Resistor
+Add Pin To Net: Unknown Pin: Pin L800-1
+Add Pin To Net: Unknown Pin: Pin L800-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR1_2
+Add Class Member: Failed to add class member : Component L800 SDR1307-4R7ML
+Add Class Member: Failed to add class member : Component R1 Component_2
+Add Class Member: Failed to add class member : Component Rfbt800 RA73F2A10K2BTD

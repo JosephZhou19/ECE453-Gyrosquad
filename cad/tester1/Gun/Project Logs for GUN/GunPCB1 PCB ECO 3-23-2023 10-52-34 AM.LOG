@@ -1,0 +1,17 @@
+Change Component Comment : Designator=Rfbb800 Old Comment=RA73F2A1K24BTD New Comment=ERJ-1TNF1241U
+Change component parameters: Designator = "Rfbb800" ("Rfbb800"); Footprint = "RES_ERJ1TNF1241U"; UniqueID = "\HJSKEVQS" ("\HJSKEVQS")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ERJ1TNF1241U"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1.24k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Resistor
+Add Pin To Net: Unknown Pin: Pin L800-1
+Add Pin To Net: Unknown Pin: Pin L800-2
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Change Net Name : Old Net Name=NetRfbb800_2 New Net Name=NetR?_2
+Add Class Member: Failed to add class member : Component L800 SDR1307-4R7ML
+Add Class Member: Failed to add class member : Component R? Component_2
+Add Class Member: Failed to add class member : Component Rfbt800 RA73F2A10K2BTD
