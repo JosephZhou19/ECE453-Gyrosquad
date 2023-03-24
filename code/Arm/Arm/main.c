@@ -46,16 +46,27 @@
 
 int main(void)
 {
+
+    // Enable global interrupts
+    __enable_irq();
+
+	#if ENABLE_SERIAL_DEBUG
+		console_init();
+		printf("\x1b[2J\x1b[;H");
+		printf("******************\n\r");
+		printf("* Gyrosquad - Arm \n\r");
+		printf("******************\n\r");
+	#endif
+
+
     cy_rslt_t result;
 
-    /* Initialize the device and board peripherals */
-    result = cybsp_init() ;
-    if (result != CY_RSLT_SUCCESS)
-    {
-        CY_ASSERT(0);
-    }
-
-    __enable_irq();
+//    /* Initialize the device and board peripherals */
+//    result = cybsp_init() ;
+//    if (result != CY_RSLT_SUCCESS)
+//    {
+//        CY_ASSERT(0);
+//    }
 
     for (;;)
     {
