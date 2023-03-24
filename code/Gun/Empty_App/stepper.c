@@ -14,8 +14,20 @@ cyhal_gpio_callback_data_t stepper_homen_cb_data =
     .callback     = stepper_homen_handler,
     .callback_arg = (void*)NULL
 };
-
-
+/**
+ * Motor moves one step based on parameters
+ *
+ * @param
+ * bool dir: direction of motor
+ * bool usm0, usm1: 00 for full step, 01 for half, 10 for quarter, 11 for 1/8
+ */
+void stepper_step(bool dir, bool usm0, bool ums1){
+	cyhal_gpio_write(STEPPER_DIR, dir);
+	cyhal_gpio_write(STEPPER_USM0, usm0);
+	cyhal_gpio_write(STEPPER_USM1, usm1);
+	cyhal_gpio_write(STEPPER_STEP, true);
+	cyhal_gpio_write(STEPPER_STEP, false);
+}
 /** IRQ handler for Stepper Home state
  *
  * @param

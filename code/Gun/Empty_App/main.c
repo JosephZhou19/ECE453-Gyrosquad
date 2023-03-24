@@ -56,9 +56,10 @@ int main(void)
     }
 
     __enable_irq();
-
+    stepper_init();
     for (;;)
     {
+    	stepper_step(true, false, false);
     }
 }
 
