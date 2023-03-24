@@ -76,7 +76,7 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -92,7 +92,7 @@ AnnotateScope=All
 AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -109,7 +109,7 @@ AnnotateScope=All
 AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -144,7 +144,7 @@ AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -290,6 +290,62 @@ DItemRevisionGUID=
 
 [GeneratedDocument10]
 DocumentPath=Output\NC Drill\ECE453_Carrier.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Output\NC Drill\GunPCB1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Output\Gerber\GunPCB1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Output\Gerber\GunPCB1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Output\Gerber\GunPCB1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Output\Gerber\GunPCB1.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Output\Gerber\GunPCB1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Output\Gerber\GunPCB1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Output\Gerber\GunPCB1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Output\Gerber\GunPCB1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Output\Gerber\GunPCB1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Output\NC Drill\GunPCB1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Output\Gerber\GunPCB1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Output\Gerber\GunPCB1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Output\NC Drill\GunPCB1.TXT
 DItemRevisionGUID=
 
 [SearchPath1]
@@ -1325,8 +1381,8 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
-CompClassManualRoomEnabled=0
+CompClassManualEnabled=1
+CompClassManualRoomEnabled=1
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0

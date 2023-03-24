@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: GunPCB1.PcbDoc   3/23/2023  10:00:05 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : GunPCB1.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             23        PTH        6.02inch (152.95mm)
+T2      28mil (0.7mm)                                             Round             4         PTH        0.93inch (23.54mm)
+T3      28mil (0.711mm)                                           Round             19        PTH        5.95inch (151.03mm)
+T4      30mil (0.75mm)                                            Round             4         PTH        1.04inch (26.47mm)
+T5      39mil (0.991mm)                                           Round             3         PTH        0.20inch (5.08mm)
+T6      39mil (1mm)                                               Round             3         PTH        0.20inch (5.08mm)
+T7      43mil (1.1mm)                                             Round             5         PTH        0.40inch (10.16mm)
+T8      51mil (1.3mm)                                             Round             4         PTH        0.59inch (15.00mm)
+T9      59mil (1.5mm)                                             Round             6         PTH        3.21inch (81.54mm)
+T10     148mil (3.75mm)                                           Round             2         PTH        0.35inch (8.89mm)
+T11     28mil (0.7mm)                                             Round             2         NPTH       0.16inch (4.15mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              75
+
+Total Processing Time (hh:mm:ss) : 00:00:00
