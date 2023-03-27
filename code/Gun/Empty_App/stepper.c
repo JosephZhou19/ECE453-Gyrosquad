@@ -21,7 +21,7 @@ cyhal_gpio_callback_data_t stepper_homen_cb_data =
  * bool dir: direction of motor
  * bool usm0, usm1: 00 for full step, 01 for half, 10 for quarter, 11 for 1/8
  */
-void stepper_step(bool dir, bool usm0, bool ums1){
+void stepper_step(bool dir, bool usm0, bool usm1){
 	cyhal_gpio_write(STEPPER_DIR, dir);
 	cyhal_gpio_write(STEPPER_USM0, usm0);
 	cyhal_gpio_write(STEPPER_USM1, usm1);
@@ -56,8 +56,18 @@ static void stepper_homen_irq_init(void)
 	 */
 	cyhal_gpio_enable_event(STEPPER_HOMEN, CYHAL_GPIO_IRQ_FALL, 3, true);
 }
-
-
+/** Resets stepper to home state. Checks to make sure stepper isn't already in home state.
+ *
+ * @param
+ */
+void stepper_reset(void){
+	bool      read_val;
+	read_val = cyhal_gpio_read(STEPPER_HOMEN);
+	if(read_val){
+		ALERT_STEPPER_HOMEN= false;
+		cyhal_gpio_write(STEPPER_RESETN, false);
+	}
+}
 /** Initialize the GPIO pins for the stepper driver
  *
  * @param
