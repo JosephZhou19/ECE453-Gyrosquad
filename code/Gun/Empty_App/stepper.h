@@ -31,5 +31,6 @@ void stepper_homen_init(void);
 
 /* Initializes the IO functions */
 void stepper_init(void);
-
+void stepper_reset(void);
+void stepper_step(bool dir, bool usm0, bool usm1);
 #endif
