@@ -9,7 +9,7 @@ Successfully acquired the information.
 Summary: 
 
 BSP: CY8CPROTO-063-BLE
-Template Application(s): Empty App
+Template Application(s): mtb-example-psoc6-ble-findme-master
 Application(s) Root Path: C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun
 
 Press "Create" to create the selected application(s).
@@ -17,60 +17,34 @@ Collecting application data...
 
 
 Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
-C:/Infineon/Tools/ModusToolbox/tools_2.4/project-creator/project-creator-cli.exe --board-id CY8CPROTO-063-BLE --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-063-BLE --board-commit latest-v3.X --app-id mtb-example-empty-app --app-uri https://github.com/Infineon/mtb-example-empty-app --app-commit latest-v3.X --cypress-tools C:/Infineon/Tools/ModusToolbox/tools_2.4 --target-dir C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun --user-app-name Empty_App --output-for-machine --use-modus-shell
-
+C:/Infineon/Tools/ModusToolbox/tools_2.4/project-creator/project-creator-cli.exe --board-id CY8CPROTO-063-BLE --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-063-BLE --board-commit latest-v3.X --app-path C:/Users/Public/mtb-example-psoc6-ble-findme-master --cypress-tools C:/Infineon/Tools/ModusToolbox/tools_2.4 --target-dir C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun --user-app-name mtb-example-psoc6-ble-findme-master --output-for-machine --use-modus-shell
 
 ==============================================================================
-= Cloning 'mtb-example-empty-app' =
+= Copying 'C:/Users/Public/mtb-example-psoc6-ble-findme-master' =
 ==============================================================================
-Cloning https://github.com/Infineon/mtb-example-empty-app into C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun directory...
-env git clone --progress --origin cypress https://github.com/Infineon/mtb-example-empty-app Empty_App
-Cloning into 'Empty_App'...
-remote: Enumerating objects: 61, done.        
-remote: Counting objects: 100% (30/30), done.        
-remote: Compressing objects: 100% (22/22), done.        
-remote: Total 61 (delta 18), reused 17 (delta 8), pack-reused 31        
-Receiving objects: 100% (61/61), 87.91 KiB | 8.79 MiB/s, done.
-Resolving deltas: 100% (27/27), done.
-
-Checking out latest-v3.X...
-env git checkout --progress latest-v3.X
-Note: switching to 'latest-v3.X'.
-
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by switching back to a branch.
-
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -c with the switch command. Example:
-
-  git switch -c <new-branch-name>
-
-Or undo this operation with:
-
-  git switch -
-
-Turn off this advice by setting config variable advice.detachedHead to false
-
-HEAD is now at a9e053c Upload mtb-example-psoc6-empty-app 3.0.0.181
+==============================================================================
+= Cleaning launch configurations =
+==============================================================================
 
 ==============================================================================
 = Creating "TARGET_CY8CPROTO-063-BLE.mtb" file(s) =
 ==============================================================================
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/deps/TARGET_CY8CPROTO-063-BLE.mtb was added
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/deps/TARGET_CY8CPROTO-062-4343W.mtb was removed
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/TARGET_CY8CPROTO-063-BLE.mtb was added
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/TARGET_CY8CKIT-062-BLE.mtb was removed
 
 ==============================================================================
-= Updating Makefile for "Empty_App" =
+= Updating Makefile for "mtb-example-psoc6-ble-findme-master" =
 ==============================================================================
 
 ==============================================================================
-= Applying the Latest Version Locking for "Empty_App" =
+= Applying the Latest Version Locking for "mtb-example-psoc6-ble-findme-master" =
 ==============================================================================
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/deps/TARGET_CY8CPROTO-063-BLE.mtb was updated
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/TARGET_CY8CPROTO-063-BLE.mtb was updated
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/bless.mtb was updated
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/retarget-io.mtb was updated
 
 ==============================================================================
-= Getting Dependencies for "Empty_App" =
+= Getting Dependencies for "mtb-example-psoc6-ble-findme-master" =
 ==============================================================================
 C:/Infineon/Tools/ModusToolbox/tools_2.4/modus-shell/bin/make.exe getlibs CY_TOOLS_PATHS=C:/Infineon/Tools/ModusToolbox/tools_2.4
 Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.4
@@ -88,43 +62,55 @@ Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-ma
 One or more elements/attributes was ignored from manifest https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml. Run using the --verbose flag for additional details.
 Successfully acquired the information.
 INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.9.0".
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/core-lib.mtb was added
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/core-make.mtb was added
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/mtb-hal-cat1.mtb was added
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/mtb-pdl-cat1.mtb was added
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/psoc6cm0p.mtb was added
-C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/recipe-make-cat1a.mtb was added
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/core-lib.mtb was added
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/core-make.mtb was added
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/mtb-hal-cat1.mtb was added
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/mtb-pdl-cat1.mtb was added
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/psoc6cm0p.mtb was added
+C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/recipe-make-cat1a.mtb was added
 Dependencies resolved.
 
 Searching application directory (.mtb)...
-Found 7 .mtb file(s)
-    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/deps/TARGET_CY8CPROTO-063-BLE.mtb"
-    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/core-lib.mtb"
-    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/core-make.mtb"
-    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/mtb-hal-cat1.mtb"
-    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/mtb-pdl-cat1.mtb"
-    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/psoc6cm0p.mtb"
-    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/recipe-make-cat1a.mtb"
+Found 9 .mtb file(s)
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/TARGET_CY8CPROTO-063-BLE.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/bless.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/deps/retarget-io.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/core-lib.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/core-make.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/mtb-hal-cat1.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/mtb-pdl-cat1.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/psoc6cm0p.mtb"
+    Processing file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/recipe-make-cat1a.mtb"
 Libraries processed.
-Created file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/Empty_App/libs/mtb.mk".
+Created file "C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/libs/mtb.mk".
 
 
 ==============================================================================
 = Import complete =
 ==============================================================================
 
-Project "Empty_App" created successfully.
+Project "mtb-example-psoc6-ble-findme-master" created successfully.
 ==============================================================================
-= Export "Empty_App" application to Eclipse IDE for ModusToolbox™ =
+= Export "mtb-example-psoc6-ble-findme-master" application to Eclipse IDE for ModusToolbox™ =
 ==============================================================================
-C:/Infineon/Tools/ModusToolbox/tools_2.4/modus-shell/bin/make.exe eclipse CY_IDE_PRJNAME=Empty_App CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.4 CY_TOOLS_PATHS=C:/Infineon/Tools/ModusToolbox/tools_2.4
+C:/Infineon/Tools/ModusToolbox/tools_2.4/modus-shell/bin/make.exe eclipse CY_IDE_PRJNAME=mtb-example-psoc6-ble-findme-master CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.4 CY_TOOLS_PATHS=C:/Infineon/Tools/ModusToolbox/tools_2.4
 Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.4
 CY8CPROTO-063-BLE.mk: ./libs/TARGET_CY8CPROTO-063-BLE/CY8CPROTO-063-BLE.mk
 
 Running device-configurator to update stale files...
-Log file= "C:/Users/jyzhou3/AppData/Local/Temp/device-configurator-cli/device-configurator-cli-20230322.142810.979-16400.log"
+Log file= "C:/Users/jyzhou3/AppData/Local/Temp/device-configurator-cli/device-configurator-cli-20230329.140323.624-16408.log"
 Command line= "C:/Infineon/Tools/ModusToolbox/tools_2.4/device-configurator/device-configurator-cli.exe --library ../mtb_shared/mtb-pdl-cat1/release-v2.4.1/devicesupport.xml --build ./libs/TARGET_CY8CPROTO-063-BLE/COMPONENT_BSP_DESIGN_MODUS/design.modus --check-mcu=CYBLE-416045-02 --check-coprocessors= --readonly"
 -> Generated device configuration file(s) in ./libs/TARGET_CY8CPROTO-063-BLE/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource
+
+Running bt-configurator to update stale files...
+Log file= "C:/Users/jyzhou3/AppData/Local/Temp/bt-configurator-cli/bt-configurator-cli-20230329.140326.284-8784.log"
+Command line= "C:/Infineon/Tools/ModusToolbox/tools_2.4/bt-configurator/bt-configurator-cli.exe --config ./design.cybt"
+--config=C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/./design.cybt
+INFO: The configuration file was last saved with a different version of the configurator than was used to perform code generation. Last saved with: Bluetooth Configurator 2.21. Current: Bluetooth Configurator 2.50.
+Successfully saved file C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/GeneratedSource/cycfg_ble.h.
+Successfully saved file C:/Users/Public/github_repos/gyrosquad1/ECE453-Gyrosquad/code/Gun/mtb-example-psoc6-ble-findme-master/GeneratedSource/cycfg_ble.c.
+Success.
+-> Generated bt configuration file(s) in ./GeneratedSource
 
 Prebuild operations complete
 Commencing build operations...
@@ -132,16 +118,16 @@ Commencing build operations...
 Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.4
 CY8CPROTO-063-BLE.mk: ./libs/TARGET_CY8CPROTO-063-BLE/CY8CPROTO-063-BLE.mk
 
-Initializing build: mtb-example-psoc6-empty-app Debug CY8CPROTO-063-BLE GCC_ARM
+Initializing build: mtb-example-psoc6-ble-findme Debug CY8CPROTO-063-BLE GCC_ARM
 
 Auto-discovery in progress...
--> Found 204 .c file(s)
+-> Found 249 .c file(s)
 -> Found 46 .S file(s)
 -> Found 22 .s file(s)
 -> Found 0 .cpp file(s)
 -> Found 0 .o file(s)
--> Found 0 .a file(s)
--> Found 558 .h file(s)
+-> Found 26 .a file(s)
+-> Found 616 .h file(s)
 -> Found 0 .hpp file(s)
 -> Found 0 resource file(s)
 Applying filters...
@@ -154,8 +140,8 @@ Build rules construction complete
 = Generating IDE files =
 ==============================================================================
 
-Generated Eclipse launch config files:  "Empty_App Attach (JLink).launch" "Empty_App Attach (KitProg3_MiniProg4).launch" "Empty_App Debug (JLink).launch" "Empty_App Debug (KitProg3_MiniProg4).launch" "Empty_App Erase (JLink).launch" "Empty_App Erase (KitProg3_MiniProg4).launch" "Empty_App Program (JLink).launch" "Empty_App Program (KitProg3_MiniProg4).launch"
+Generated Eclipse launch config files:  "mtb-example-psoc6-ble-findme-master Attach (JLink).launch" "mtb-example-psoc6-ble-findme-master Attach (KitProg3_MiniProg4).launch" "mtb-example-psoc6-ble-findme-master Debug (JLink).launch" "mtb-example-psoc6-ble-findme-master Debug (KitProg3_MiniProg4).launch" "mtb-example-psoc6-ble-findme-master Erase (JLink).launch" "mtb-example-psoc6-ble-findme-master Erase (KitProg3_MiniProg4).launch" "mtb-example-psoc6-ble-findme-master Program (JLink).launch" "mtb-example-psoc6-ble-findme-master Program (KitProg3_MiniProg4).launch"
   
-The project "Empty_App" was successfully exported to Eclipse IDE for ModusToolbox™.
+The project "mtb-example-psoc6-ble-findme-master" was successfully exported to Eclipse IDE for ModusToolbox™.
 
-Successfully created and exported "Empty_App" application.
+Successfully created and exported "mtb-example-psoc6-ble-findme-master" application.
