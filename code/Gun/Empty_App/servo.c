@@ -13,6 +13,8 @@
  */
 void servo_run(uint32_t freq, uint32_t time)
 {
+	cy_rslt_t   rslt;
+
 	// Set a duty cycle of 50% and frequency of 1Hz
 	rslt = cyhal_pwm_set_duty_cycle(&servo_pwm_obj, 50, freq);
 	if(rslt != CY_RSLT_SUCCESS)
