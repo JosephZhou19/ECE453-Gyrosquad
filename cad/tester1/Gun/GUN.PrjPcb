@@ -257,94 +257,98 @@ DocumentPath=Output\Design Rule Check - ECE453_Carrier.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Output\Gerber\ECE453_Carrier.GBL
+DocumentPath=Output\Design Rule Check - GunPCB1.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Output\Gerber\ECE453_Carrier.GBO
+DocumentPath=Output\Gerber\ECE453_Carrier.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Output\Gerber\ECE453_Carrier.GBP
+DocumentPath=Output\Gerber\ECE453_Carrier.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Output\Gerber\ECE453_Carrier.GBS
+DocumentPath=Output\Gerber\ECE453_Carrier.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Output\Gerber\ECE453_Carrier.GTL
+DocumentPath=Output\Gerber\ECE453_Carrier.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Output\Gerber\ECE453_Carrier.GTO
+DocumentPath=Output\Gerber\ECE453_Carrier.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Output\Gerber\ECE453_Carrier.GTP
+DocumentPath=Output\Gerber\ECE453_Carrier.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Output\Gerber\ECE453_Carrier.GTS
+DocumentPath=Output\Gerber\ECE453_Carrier.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Output\NC Drill\ECE453_Carrier.TXT
+DocumentPath=Output\Gerber\ECE453_Carrier.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Output\NC Drill\GunPCB1.DRR
+DocumentPath=Output\NC Drill\ECE453_Carrier.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Output\Gerber\GunPCB1.EXTREP
+DocumentPath=Output\NC Drill\GunPCB1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Output\Gerber\GunPCB1.GBL
+DocumentPath=Output\Gerber\GunPCB1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Output\Gerber\GunPCB1.GBO
+DocumentPath=Output\Gerber\GunPCB1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Output\Gerber\GunPCB1.GBP
+DocumentPath=Output\Gerber\GunPCB1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Output\Gerber\GunPCB1.GBS
+DocumentPath=Output\Gerber\GunPCB1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Output\Gerber\GunPCB1.GTL
+DocumentPath=Output\Gerber\GunPCB1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Output\Gerber\GunPCB1.GTO
+DocumentPath=Output\Gerber\GunPCB1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Output\Gerber\GunPCB1.GTP
+DocumentPath=Output\Gerber\GunPCB1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Output\Gerber\GunPCB1.GTS
+DocumentPath=Output\Gerber\GunPCB1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Output\NC Drill\GunPCB1.LDP
+DocumentPath=Output\Gerber\GunPCB1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Output\Gerber\GunPCB1.REP
+DocumentPath=Output\NC Drill\GunPCB1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Output\Gerber\GunPCB1.RUL
+DocumentPath=Output\Gerber\GunPCB1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
+DocumentPath=Output\Gerber\GunPCB1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
 DocumentPath=Output\NC Drill\GunPCB1.TXT
 DItemRevisionGUID=
 
@@ -513,6 +517,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -524,6 +538,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -622,18 +646,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -793,12 +805,6 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Project History
-OutputName9=Project History
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1012,11 +1018,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1149,7 +1150,6 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
-Type120=1
 
 [Difference Levels]
 Type1=1
@@ -1347,7 +1347,6 @@ Type123=1
 Type124=1
 Type125=1
 Type126=1
-Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW

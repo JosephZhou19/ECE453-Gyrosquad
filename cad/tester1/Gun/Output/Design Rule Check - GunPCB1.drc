@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\ECE453-Gyrosquad\cad\tester1\Gun\GunPCB1.PcbDoc
-Date     : 3/28/2023
-Time     : 5:39:22 PM
+PCB File : I:\ECE453-Gyrosquad\cad\tester1\Gun\GunPCB1.PcbDoc
+Date     : 3/29/2023
+Time     : 6:17:09 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
    Violation between Clearance Constraint: (0.197mil < 10mil) Between Area Fill (2506.338mil,2662.205mil) (3372.48mil,3001.575mil) on Keep-Out Layer And Pad MD200-1(3200mil,2650mil) on Top Layer 
@@ -37,7 +37,7 @@ Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Net GND Between Pad MD200-1(3200mil,2650mil) on Top Layer And Pad C202-1(3633.523mil,2717.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (2611.535mil,338.898mil)(2744.064mil,471.426mil) on Top Layer And Pad C507-2(2750mil,1150mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (2744.064mil,471.426mil)(2750mil,471.426mil) on Top Layer And Pad C507-2(2750mil,1150mil) on Top Layer 
    Violation between Un-Routed Net Constraint: Net GND Between Pad MD200-43(2678.819mil,2650mil) on Top Layer And Pad MD200-1(3200mil,2650mil) on Top Layer 
    Violation between Un-Routed Net Constraint: Track (1000mil,0mil)(1000mil,5000mil) on Multi-Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Track (1000mil,0mil)(8545mil,0mil) on Multi-Layer Dead Copper - Net Not Assigned.
@@ -343,4 +343,4 @@ Rule Violations :0
 
 Violations Detected : 277
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
