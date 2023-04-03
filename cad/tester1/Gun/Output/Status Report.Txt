@@ -1,20 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of PCB Document [GunPCB1.PcbDoc]
-   Generated File[GunPCB1.GTO]
-   Generated File[GunPCB1.GTP]
-   Generated File[GunPCB1.GTS]
-   Generated File[GunPCB1.GTL]
-   Generated File[GunPCB1.GBL]
-   Generated File[GunPCB1.GBS]
-   Generated File[GunPCB1.GBP]
-   Generated File[GunPCB1.GBO]
-   Generated File[GunPCB1.RUL]
-   Generated File[GunPCB1.EXTREP]
-   Generated File[GunPCB1.REP]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 1:30:27 PM On 4/3/2023
+
+Output: Bill of Materials
+Type  : BOM
+From  : BOM Document [GUN.BomDoc]
 
 
-Files Generated   : 11
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 10:00:09 PM On 3/23/2023
+Finished Output Generation At 1:34:19 PM On 4/3/2023
