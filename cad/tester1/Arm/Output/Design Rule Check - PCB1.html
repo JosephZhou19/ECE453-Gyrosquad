@@ -1,0 +1,476 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD22\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">4/11/2023</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3:08:40 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc" class="file"><acronym title="C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc">C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">44</td></tr>
+</table>
+</td>
+</table><a name="IDZ2Q5DDFOOALVFB5OS45LHXB2SEOMVNK2DOV2F2DN210QMVMC5KTN"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXN3R34NLY2M0NXLN31RZ4RZ1OMTLY5A2BYSXSSCSR2CWWE1S1ZGB">Clearance Constraint (Gap=7mil) (All),(All)</a></td>
+<td class="column2">17</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDFF32YXQMKC2J5ICV0PCENFOXQ3C1HQB1EANFMRVZQHBYPGHI3G">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZI02IAEWZIHPIXFQVI20CKVV2LA5CNY5BUDMYRGSJOMU5T2AYBJO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQ1NSV01DN1OWC1ULIER1PQ31HC1UVNMS1PD1VYJL45EKM0WEXCUD">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWOBRFYEEQTWWLCF5LEMMGXGCFIUIHU5FH5WIK2IW5BEMSBQUYD4N">Width Constraint (Min=7mil) (Max=100mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">17</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXBBAXY1AVLE0DSANFX2YGRTH2G3JDNZPNFWHW1LR4A4HDMZL0FVB">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0IWKY2EOSAQKLQCVVSZJXF01SMTTVGFLUZMNRUHNOTBTXOOJ3XCD">Minimum Annular Ring (Minimum=6mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGGR0D15L3XUGLXGLTX33YPMTAHCU2X0AMY2HY4DTFG2VSBWRJJJH">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWMR0KB0KNDB0JGDAAF5ROC1JFLCAWQBAUA1D2EEDF4DXGNAYMSFO">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBXCESXGK1GIMPYEYQRP1LLPG1ILZCM2QL1F2B1OCCVX25SYN3DYK">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSNQUZZMRX4AHC0GIMFYPBX4APOAN0TPT1JKXIPPGSA1AIEAPGZLB">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKHM0SDK0U5SPOXUVZG5DK5MMDHY0AI2BK3CM2GFFS0EOKVZWQ1VL">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZKPJTT4KP2OFCXRQXOYHKE14GKDHCXNWQCQ5I1LJ0SP51ZHN3TQJ">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRD5RC35ZKCCADR3SPNS4XYQSJEWMBBJVE4RJXOGXQCJ02MOZRZVP">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">44</td>
+</tr>
+</table><br><a name="IDXN3R34NLY2M0NXLN31RZ4RZ1OMTLY5A2BYSXSSCSR2CWWE1S1ZGB"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=7mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2957.057mil|Location2.Y=2965.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2957.057mil|Location2.Y=2965.307mil|Absolute=True">Clearance Constraint: (0.177mil &lt; 7mil) Between Area Fill (780.059mil,2505.906mil) (1646.201mil,2845.276mil) on Keep-Out Layer And Pad MD200-1(1395mil,2936.182mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2957.057mil|Location2.Y=2965.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2957.057mil|Location2.Y=2965.307mil|Absolute=True">Clearance Constraint: (0.177mil &lt; 7mil) Between Area Fill (780.059mil,2505.906mil) (1646.201mil,2845.276mil) on Keep-Out Layer And Pad MD200-1(1395mil,2936.182mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2435.875mil|Location2.Y=2444.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2435.875mil|Location2.Y=2444.125mil|Absolute=True">Clearance Constraint: (0.177mil &lt; 7mil) Between Area Fill (780.059mil,2505.906mil) (1646.201mil,2845.276mil) on Keep-Out Layer And Pad MD200-43(1395mil,2415mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2435.875mil|Location2.Y=2444.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1378.778mil|Location2.X=1387.028mil|Location1.Y=2435.875mil|Location2.Y=2444.125mil|Absolute=True">Clearance Constraint: (0.177mil &lt; 7mil) Between Area Fill (780.059mil,2505.906mil) (1646.201mil,2845.276mil) on Keep-Out Layer And Pad MD200-43(1395mil,2415mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3159.144mil|Location2.X=3167.394mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3159.144mil|Location2.X=3167.394mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True">Clearance Constraint: (4.784mil &lt; 7mil) Between Pad J500-Shell(3198.702mil,1079.686mil) on Top Layer And Track (1080mil,1030mil)(6920mil,1030mil) on Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3267.411mil|Location2.X=3275.661mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3267.411mil|Location2.X=3275.661mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True">Clearance Constraint: (4.784mil &lt; 7mil) Between Pad J500-Shell(3308.938mil,1079.686mil) on Top Layer And Track (1080mil,1030mil)(6920mil,1030mil) on Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3361.899mil|Location2.X=3370.149mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3361.899mil|Location2.X=3370.149mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True">Clearance Constraint: (4.784mil &lt; 7mil) Between Pad J500-Shell(3403.426mil,1079.686mil) on Top Layer And Track (1080mil,1030mil)(6920mil,1030mil) on Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3474.104mil|Location2.X=3482.354mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3474.104mil|Location2.X=3482.354mil|Location1.Y=1035.767mil|Location2.Y=1044.017mil|Absolute=True">Clearance Constraint: (4.784mil &lt; 7mil) Between Pad J500-Shell(3513.662mil,1079.686mil) on Top Layer And Track (1080mil,1030mil)(6920mil,1030mil) on Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2695.718mil|Location2.Y=2703.968mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2695.718mil|Location2.Y=2703.968mil|Absolute=True">Clearance Constraint: (5.907mil &lt; 7mil) Between Pad U400-1(2595mil,2709.686mil) on Top Layer And Pad U400-2(2595mil,2690mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2650.324mil|Location2.X=2658.574mil|Location1.Y=2725.443mil|Location2.Y=2733.693mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2650.324mil|Location2.X=2658.574mil|Location1.Y=2725.443mil|Location2.Y=2733.693mil|Absolute=True">Clearance Constraint: (5.907mil &lt; 7mil) Between Pad U400-14(2664.292mil,2719.922mil) on Top Layer And Pad U400-15(2644.606mil,2719.922mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.639mil|Location2.X=2638.889mil|Location1.Y=2725.443mil|Location2.Y=2733.693mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.639mil|Location2.X=2638.889mil|Location1.Y=2725.443mil|Location2.Y=2733.693mil|Absolute=True">Clearance Constraint: (5.904mil &lt; 7mil) Between Pad U400-15(2644.606mil,2719.922mil) on Top Layer And Pad U400-16(2624.922mil,2719.922mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.873mil|Location2.X=2639.123mil|Location1.Y=2726.475mil|Location2.Y=2734.725mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.873mil|Location2.X=2639.123mil|Location1.Y=2726.475mil|Location2.Y=2734.725mil|Absolute=True">Clearance Constraint: (6.698mil &lt; 7mil) Between Pad U400-16(2624.922mil,2719.922mil) on Top Layer And Track (2630mil,2765mil)(2644.606mil,2719.922mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2676.033mil|Location2.Y=2684.283mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2676.033mil|Location2.Y=2684.283mil|Absolute=True">Clearance Constraint: (5.904mil &lt; 7mil) Between Pad U400-2(2595mil,2690mil) on Top Layer And Pad U400-3(2595mil,2670.316mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2656.348mil|Location2.Y=2664.598mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2656.348mil|Location2.Y=2664.598mil|Absolute=True">Clearance Constraint: (5.907mil &lt; 7mil) Between Pad U400-3(2595mil,2670.316mil) on Top Layer And Pad U400-4(2595mil,2650.63mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2636.663mil|Location2.Y=2644.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2581.229mil|Location2.X=2589.479mil|Location1.Y=2636.663mil|Location2.Y=2644.913mil|Absolute=True">Clearance Constraint: (5.904mil &lt; 7mil) Between Pad U400-4(2595mil,2650.63mil) on Top Layer And Pad U400-5(2595mil,2630.946mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.639mil|Location2.X=2638.889mil|Location1.Y=2606.939mil|Location2.Y=2615.189mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.639mil|Location2.X=2638.889mil|Location1.Y=2606.939mil|Location2.Y=2615.189mil|Absolute=True">Clearance Constraint: (5.904mil &lt; 7mil) Between Pad U400-6(2624.922mil,2620.71mil) on Top Layer And Pad U400-7(2644.606mil,2620.71mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2650.324mil|Location2.X=2658.574mil|Location1.Y=2606.939mil|Location2.Y=2615.189mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2650.324mil|Location2.X=2658.574mil|Location1.Y=2606.939mil|Location2.Y=2615.189mil|Absolute=True">Clearance Constraint: (5.907mil &lt; 7mil) Between Pad U400-7(2644.606mil,2620.71mil) on Top Layer And Pad U400-8(2664.292mil,2620.71mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZI02IAEWZIHPIXFQVI20CKVV2LA5CNY5BUDMYRGSJOMU5T2AYBJO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3224.41mil|Location2.X=3430.592mil|Location1.Y=1150.314mil|Location2.Y=1285mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3224.41mil|Location2.X=3430.592mil|Location1.Y=1150.314mil|Location2.Y=1285mil|Absolute=True">Un-Routed Net Constraint: Net USB_D_M Between Track (3324.41mil,1250.314mil)(3324.41mil,1420.59mil) on Top Layer And Pad J500-2(3330.592mil,1185mil) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3250mil|Location2.X=3456.182mil|Location1.Y=1150.314mil|Location2.Y=1285mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3250mil|Location2.X=3456.182mil|Location1.Y=1150.314mil|Location2.Y=1285mil|Absolute=True">Un-Routed Net Constraint: Net USB_D_P Between Track (3350mil,1250.314mil)(3350mil,1381.706mil) on Top Layer And Pad J500-3(3356.182mil,1185mil) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3362.024mil|Location2.X=3444.827mil|Location1.Y=1038.284mil|Location2.Y=1215.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3362.024mil|Location2.X=3444.827mil|Location1.Y=1038.284mil|Location2.Y=1215.575mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J500-Shell(3403.426mil,1079.686mil) on Top Layer [Unplated] And Pad J500-5(3407.364mil,1185mil) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3301.182mil|Location2.X=3507.364mil|Location1.Y=1150.314mil|Location2.Y=1285mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3301.182mil|Location2.X=3507.364mil|Location1.Y=1150.314mil|Location2.Y=1285mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Track (3401.182mil,1250.314mil)(3401.182mil,1267.362mil) on Top Layer And Pad J500-5(3407.364mil,1185mil) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3159.269mil|Location2.X=3350.34mil|Location1.Y=1038.284mil|Location2.Y=1121.088mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3159.269mil|Location2.X=3350.34mil|Location1.Y=1038.284mil|Location2.Y=1121.088mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J500-Shell(3198.702mil,1079.686mil) on Top Layer [Unplated] And Pad J500-Shell(3308.938mil,1079.686mil) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3267.537mil|Location2.X=3444.827mil|Location1.Y=1038.284mil|Location2.Y=1121.088mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3267.537mil|Location2.X=3444.827mil|Location1.Y=1038.284mil|Location2.Y=1121.088mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J500-Shell(3308.938mil,1079.686mil) on Top Layer [Unplated] And Pad J500-Shell(3403.426mil,1079.686mil) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3362.024mil|Location2.X=3553.095mil|Location1.Y=1038.284mil|Location2.Y=1121.088mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3362.024mil|Location2.X=3553.095mil|Location1.Y=1038.284mil|Location2.Y=1121.088mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J500-Shell(3403.426mil,1079.686mil) on Top Layer [Unplated] And Pad J500-Shell(3513.662mil,1079.686mil) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWOBRFYEEQTWWLCF5LEMMGXGCFIUIHU5FH5WIK2IW5BEMSBQUYD4N"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Width Constraint (Min=7mil) (Max=100mil) (Preferred=10mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2362.201mil|Location2.X=2373.1mil|Location1.Y=2696mil|Location2.Y=2704mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2362.201mil|Location2.X=2373.1mil|Location1.Y=2696mil|Location2.Y=2704mil|Absolute=True">Width Constraint: Track (2137.402mil,2710mil)(2595mil,2690mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2408.5mil|Location2.X=2419.4mil|Location1.Y=2621mil|Location2.Y=2629mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2408.5mil|Location2.X=2419.4mil|Location1.Y=2621mil|Location2.Y=2629mil|Absolute=True">Width Constraint: Track (2390mil,2625mil)(2435mil,2625mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2474.784mil|Location2.X=2485.684mil|Location1.Y=2666.316mil|Location2.Y=2674.316mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2474.784mil|Location2.X=2485.684mil|Location1.Y=2666.316mil|Location2.Y=2674.316mil|Absolute=True">Width Constraint: Track (2425.316mil,2670.316mil)(2532.253mil,2670.316mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2446mil|Location2.X=2455.847mil|Location1.Y=2636mil|Location2.Y=2644mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2446mil|Location2.X=2455.847mil|Location1.Y=2636mil|Location2.Y=2644mil|Absolute=True">Width Constraint: Track (2435mil,2625mil)(2465mil,2655mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2466mil|Location2.X=2475.847mil|Location1.Y=2581mil|Location2.Y=2589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2466mil|Location2.X=2475.847mil|Location1.Y=2581mil|Location2.Y=2589mil|Absolute=True">Width Constraint: Track (2465mil,2580mil)(2475mil,2590mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2504.554mil|Location2.X=2515.454mil|Location1.Y=2651mil|Location2.Y=2659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2504.554mil|Location2.X=2515.454mil|Location1.Y=2651mil|Location2.Y=2659mil|Absolute=True">Width Constraint: Track (2465mil,2655mil)(2552.108mil,2655mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2538.539mil|Location2.X=2549.439mil|Location1.Y=2586mil|Location2.Y=2594mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2538.539mil|Location2.X=2549.439mil|Location1.Y=2586mil|Location2.Y=2594mil|Absolute=True">Width Constraint: Track (2475mil,2590mil)(2610.078mil,2590mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2559.626mil|Location2.X=2570.526mil|Location1.Y=2666.316mil|Location2.Y=2674.316mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2559.626mil|Location2.X=2570.526mil|Location1.Y=2666.316mil|Location2.Y=2674.316mil|Absolute=True">Width Constraint: Track (2532.253mil,2670.316mil)(2595mil,2670.316mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.293mil|Location2.X=2560.224mil|Location1.Y=2648.815mil|Location2.Y=2656.815mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.293mil|Location2.X=2560.224mil|Location1.Y=2648.815mil|Location2.Y=2656.815mil|Absolute=True">Width Constraint: Track (2552.108mil,2655mil)(2556.478mil,2650.63mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2571.739mil|Location2.X=2582.639mil|Location1.Y=2646.63mil|Location2.Y=2654.63mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2571.739mil|Location2.X=2582.639mil|Location1.Y=2646.63mil|Location2.Y=2654.63mil|Absolute=True">Width Constraint: Track (2556.478mil,2650.63mil)(2595mil,2650.63mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2608.961mil|Location2.X=2618.893mil|Location1.Y=2733.039mil|Location2.Y=2741.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2608.961mil|Location2.X=2618.893mil|Location1.Y=2733.039mil|Location2.Y=2741.039mil|Absolute=True">Width Constraint: Track (2601mil,2749mil)(2624.922mil,2725.078mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2613.5mil|Location2.X=2623.347mil|Location1.Y=2593.422mil|Location2.Y=2601.422mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2613.5mil|Location2.X=2623.347mil|Location1.Y=2593.422mil|Location2.Y=2601.422mil|Absolute=True">Width Constraint: Track (2610.078mil,2590mil)(2624.922mil,2604.844mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2620.922mil|Location2.X=2628.922mil|Location1.Y=2608.777mil|Location2.Y=2617.187mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2620.922mil|Location2.X=2628.922mil|Location1.Y=2608.777mil|Location2.Y=2617.187mil|Absolute=True">Width Constraint: Track (2624.922mil,2604.844mil)(2624.922mil,2620.71mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2620.922mil|Location2.X=2628.922mil|Location1.Y=2718.5mil|Location2.Y=2726.91mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2620.922mil|Location2.X=2628.922mil|Location1.Y=2718.5mil|Location2.Y=2726.91mil|Absolute=True">Width Constraint: Track (2624.922mil,2719.922mil)(2624.922mil,2725.078mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2633.303mil|Location2.X=2641.874mil|Location1.Y=2738.238mil|Location2.Y=2746.461mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2633.303mil|Location2.X=2641.874mil|Location1.Y=2738.238mil|Location2.Y=2746.461mil|Absolute=True">Width Constraint: Track (2630mil,2765mil)(2644.606mil,2719.922mil) on Top Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696mil|Location2.X=2706.9mil|Location1.Y=2761mil|Location2.Y=2769mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696mil|Location2.X=2706.9mil|Location1.Y=2761mil|Location2.Y=2769mil|Absolute=True">Width Constraint: Track (2630mil,2765mil)(2770mil,2765mil) on Bottom Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2753.5mil|Location2.X=2763.347mil|Location1.Y=2748.5mil|Location2.Y=2756.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2753.5mil|Location2.X=2763.347mil|Location1.Y=2748.5mil|Location2.Y=2756.5mil|Absolute=True">Width Constraint: Track (2745mil,2740mil)(2770mil,2765mil) on Bottom Layer Actual Width = 5mil, Target Width = 7mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZKPJTT4KP2OFCXRQXOYHKE14GKDHCXNWQCQ5I1LJ0SP51ZHN3TQJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3315.91mil|Location2.X=3339.499mil|Location1.Y=1241.814mil|Location2.Y=1276.014mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3315.91mil|Location2.X=3339.499mil|Location1.Y=1241.814mil|Location2.Y=1276.014mil|Absolute=True">Net Antennae: Track (3324.41mil,1250.314mil)(3324.41mil,1420.59mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3341.5mil|Location2.X=3365.089mil|Location1.Y=1241.814mil|Location2.Y=1276.014mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3341.5mil|Location2.X=3365.089mil|Location1.Y=1241.814mil|Location2.Y=1276.014mil|Absolute=True">Net Antennae: Track (3350mil,1250.314mil)(3350mil,1381.706mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3392.682mil|Location2.X=3416.271mil|Location1.Y=1241.814mil|Location2.Y=1276.014mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Arm\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3392.682mil|Location2.X=3416.271mil|Location1.Y=1241.814mil|Location2.Y=1276.014mil|Absolute=True">Net Antennae: Track (3401.182mil,1250.314mil)(3401.182mil,1267.362mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

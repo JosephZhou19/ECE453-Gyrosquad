@@ -49,6 +49,40 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\Footprints\Stepper\Stepper.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NHVIDURV
+
+[Document2]
+DocumentPath=..\..\Footprints\Stepper\Stepper.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WHTPYKRL
+
+[Document3]
 DocumentPath=GunPCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -65,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KRNQRMCX
 
-[Document2]
+[Document4]
 DocumentPath=03-Power.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=300
@@ -75,14 +109,14 @@ AnnotateScope=All
 AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YCCCLQGV
 
-[Document3]
+[Document5]
 DocumentPath=01-Revision_History_and_Contents.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=100
@@ -92,14 +126,14 @@ AnnotateScope=All
 AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UUCNXNPW
 
-[Document4]
+[Document6]
 DocumentPath=02-MCU.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=200
@@ -109,14 +143,14 @@ AnnotateScope=All
 AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VTCYPMVW
 
-[Document5]
+[Document7]
 DocumentPath=ECE453.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document8]
 DocumentPath=04-HallEffectSensor.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=400
@@ -143,14 +177,14 @@ AnnotateScope=All
 AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FWSUXMZD
 
-[Document7]
+[Document9]
 DocumentPath=05-StepperMotor.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=500
@@ -160,14 +194,14 @@ AnnotateScope=All
 AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LQKVKSCP
 
-[Document8]
+[Document10]
 DocumentPath=06-ServoMotor.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=600
@@ -177,14 +211,14 @@ AnnotateScope=All
 AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WPJWXZPG
 
-[Document9]
+[Document11]
 DocumentPath=GUN.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +235,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document12]
 DocumentPath=07-UARTBridge.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=700
@@ -211,14 +245,14 @@ AnnotateScope=All
 AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RHVBXXLL
 
-[Document11]
+[Document13]
 DocumentPath=08-SwitchingRegulator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=800
@@ -228,14 +262,14 @@ AnnotateScope=All
 AnnotateOrder=12
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EXHHQXLZ
 
-[Document12]
+[Document14]
 DocumentPath=GUN.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1

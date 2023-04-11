@@ -1,0 +1,85 @@
+Added Component: Designator=U500(StepperMotor)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-153"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=DRV8811&fileType=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/litv/pdf/mpds373"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SLVS865G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "PWP0028C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "28-Pin Plastic Small Outline, Body 9.70 x 4.40 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "4073225-6/I, 05/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "DRV8811PWP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Output Current(A)"; Value = "1.9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thermal Shutdown"; Value = "TRUE"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC506_1 Pin=U500-5
+Added Pin To Net: NetName=NetC501_1 Pin=U500-6
+Added Pin To Net: NetName=GND Pin=U500-7
+Added Pin To Net: NetName=NetR514_1 Pin=U500-8
+Added Pin To Net: NetName=NetC500_1 Pin=U500-9
+Added Pin To Net: NetName=Stepper_5V_LED Pin=U500-10
+Added Pin To Net: NetName=24V Pin=U500-15
+Added Pin To Net: NetName=GND Pin=U500-21
+Added Pin To Net: NetName=24V Pin=U500-28
+Added Pin To Net: NetName=GND Pin=U500-29
+Added Pin To Net: NetName=NetC503_1 Pin=C503-1
+Added Pin To Net: NetName=NetC503_1 Pin=U500-22
+Added Net: Name=NetC503_1
+Added Pin To Net: NetName=NetC505_1 Pin=C505-1
+Added Pin To Net: NetName=NetC505_1 Pin=U500-24
+Added Net: Name=NetC505_1
+Added Pin To Net: NetName=NetC505_2 Pin=C505-2
+Added Pin To Net: NetName=NetC505_2 Pin=U500-23
+Added Net: Name=NetC505_2
+Added Pin To Net: NetName=NetC508_2 Pin=C508-2
+Added Pin To Net: NetName=NetC508_2 Pin=U500-20
+Added Net: Name=NetC508_2
+Added Pin To Net: NetName=NetJ500_1 Pin=J500-1
+Added Pin To Net: NetName=NetJ500_1 Pin=U500-4
+Added Net: Name=NetJ500_1
+Added Pin To Net: NetName=NetJ500_2 Pin=J500-2
+Added Pin To Net: NetName=NetJ500_2 Pin=U500-25
+Added Net: Name=NetJ500_2
+Added Pin To Net: NetName=NetJ500_3 Pin=J500-3
+Added Pin To Net: NetName=NetJ500_3 Pin=U500-11
+Added Net: Name=NetJ500_3
+Added Pin To Net: NetName=NetJ500_4 Pin=J500-4
+Added Pin To Net: NetName=NetJ500_4 Pin=U500-18
+Added Net: Name=NetJ500_4
+Added Pin To Net: NetName=NetR502_2 Pin=R502-2
+Added Pin To Net: NetName=NetR502_2 Pin=U500-26
+Added Net: Name=NetR502_2
+Added Pin To Net: NetName=NetR503_2 Pin=R503-2
+Added Pin To Net: NetName=NetR503_2 Pin=U500-27
+Added Net: Name=NetR503_2
+Added Pin To Net: NetName=NetR504_2 Pin=R504-2
+Added Pin To Net: NetName=NetR504_2 Pin=U500-19
+Added Net: Name=NetR504_2
+Added Pin To Net: NetName=NetR506_2 Pin=R506-2
+Added Pin To Net: NetName=NetR506_2 Pin=U500-3
+Added Net: Name=NetR506_2
+Added Pin To Net: NetName=NetR507_2 Pin=R507-2
+Added Pin To Net: NetName=NetR507_2 Pin=U500-13
+Added Net: Name=NetR507_2
+Added Pin To Net: NetName=NetR508_2 Pin=R508-2
+Added Pin To Net: NetName=NetR508_2 Pin=U500-12
+Added Net: Name=NetR508_2
+Added Pin To Net: NetName=NetR509_2 Pin=R509-2
+Added Pin To Net: NetName=NetR509_2 Pin=U500-17
+Added Net: Name=NetR509_2
+Added Pin To Net: NetName=NetR510_1 Pin=R510-1
+Added Pin To Net: NetName=NetR510_1 Pin=U500-1
+Added Net: Name=NetR510_1
+Added Pin To Net: NetName=NetR512_2 Pin=R512-2
+Added Pin To Net: NetName=NetR512_2 Pin=U500-16
+Added Net: Name=NetR512_2
+Added Pin To Net: NetName=NetR513_2 Pin=R513-2
+Added Pin To Net: NetName=NetR513_2 Pin=U500-2
+Added Net: Name=NetR513_2
+Added Pin To Net: NetName=NetR516_2 Pin=R516-2
+Added Pin To Net: NetName=NetR516_2 Pin=U500-14
+Added Net: Name=NetR516_2
+Added Member To Class: ClassName=05-StepperMotor Member=Component U500 DRV8811PWP

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetC506_1 Pin=U500-5
+Removed Pin From Net: NetName=NetC501_1 Pin=U500-6
+Removed Pin From Net: NetName=GND Pin=U500-7
+Removed Pin From Net: NetName=NetR514_1 Pin=U500-8
+Removed Pin From Net: NetName=NetC500_1 Pin=U500-9
+Removed Pin From Net: NetName=Stepper_5V_LED Pin=U500-10
+Removed Pin From Net: NetName=24V Pin=U500-15
+Removed Pin From Net: NetName=GND Pin=U500-21
+Removed Pin From Net: NetName=24V Pin=U500-28
+Removed Pin From Net: NetName=GND Pin=U500-29
+Removed Member From Class: ClassName=05-StepperMotor Member=U500
