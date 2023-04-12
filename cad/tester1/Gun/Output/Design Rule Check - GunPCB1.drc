@@ -1,27 +1,16 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Public\Github\ECE453-Gyrosquad\cad\tester1\Gun\GunPCB1.PcbDoc
+PCB File : C:\Users\unijay\ece453\ECE453-Gyrosquad\cad\tester1\Gun\GunPCB1.PcbDoc
 Date     : 4/11/2023
-Time     : 3:06:13 PM
+Time     : 11:07:33 PM
 
 Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad SW500-2(4100mil,958.268mil) on Top Layer And Track (4100mil,958.268mil)(4100mil,960mil) on Top Layer Location : [X = 4100mil][Y = 959.134mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad TP202-1(3628.523mil,2989.134mil) on Top Layer And Pad C202-1(3633.523mil,2717.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (3232.788mil,2640mil)(3280mil,2640mil) on Top Layer And Pad C202-1(3633.523mil,2717.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net USB_D_M Between Track (8197.283mil,524.409mil)(8200mil,521.693mil) on Top Layer And Pad J700-2(8340mil,505.591mil) on Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net USB_D_P Between Track (8110mil,550mil)(8194.685mil,550mil) on Top Layer And Pad J700-3(8340mil,531.181mil) on Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R202-1(2000mil,2581.496mil) on Top Layer And Track (2630mil,2630.157mil)(2642.835mil,2642.992mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad TP202-1(3628.523mil,2989.134mil) on Top Layer And Pad TP201-1(3838.523mil,2989.134mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (4312.933mil,2633.701mil)(4312.933mil,2746.299mil) on Top Layer And Pad U201-3(4409.705mil,3001.358mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (2642.835mil,2642.992mil)(2671.811mil,2642.992mil) on Top Layer And Track (3207.008mil,2642.992mil)(3227.008mil,2642.992mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net Stepper_5V_LED Between Track (4057.165mil,230mil)(4060mil,230mil) on Top Layer And Track (4058.819mil,560mil)(4060mil,560mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Track (4100mil,958.268mil)(4100mil,960mil) on Top Layer Dead Copper - Net Not Assigned.
-Rule Violations :10
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -41,205 +30,7 @@ Processing Rule : Minimum Annular Ring (Minimum=6mil) (All)
    Violation between Minimum Annular Ring: (1.968mil < 6mil) Pad U800-15(6920.591mil,3937.196mil) on Multi-Layer (Annular Ring=1.968mil) On (Top Layer)
    Violation between Minimum Annular Ring: (1.968mil < 6mil) Pad U800-16(6869.409mil,3886.015mil) on Multi-Layer (Annular Ring=1.968mil) On (Top Layer)
    Violation between Minimum Annular Ring: (1.968mil < 6mil) Pad U800-17(6920.591mil,3886.015mil) on Multi-Layer (Annular Ring=1.968mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (1550mil,1180mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2036.428mil,730.834mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2100mil,700mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2250mil,800mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2254.259mil,2298.339mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2320mil,1990mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2321.542mil,2503.249mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2360mil,1840mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2360mil,2540mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2423.695mil,1893.868mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2427.396mil,2252.912mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2440mil,2610mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2440mil,3130mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2440mil,760mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2440mil,830mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2470mil,1080mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2470mil,1370mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2470mil,1810mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2470mil,1930mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2471.49mil,2571.201mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2493.113mil,2472.174mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2525.032mil,2436.137mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2550mil,1080mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2550mil,870mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2579.603mil,1796.723mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2590mil,1080mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2590mil,870mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2650mil,1110mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2660mil,1970mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2683.598mil,1792.605mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2690mil,1370mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2730mil,2070mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2740mil,1790mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2750mil,700mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2770mil,800mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2780mil,670mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2790mil,1550mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2800mil,725mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2800mil,760mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2800mil,830mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2800mil,865mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2830mil,2070mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2846.283mil,1789.515mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2940mil,1820mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2980mil,1770mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (2990mil,1550mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3000mil,2000mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3035.739mil,1761.714mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3080mil,1040mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3160mil,1170mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3160mil,650mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3180mil,620mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3180mil,830mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3190mil,790mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3191.144mil,722.494mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3220mil,530mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3230mil,680mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3250mil,1050mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3270mil,560mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3279.764mil,830.236mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3280mil,1840mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3280mil,2220mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3289.427mil,1765.118mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3300mil,1530mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3300mil,650mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3305.772mil,2100.424mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3320mil,2230mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3320mil,2380mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3328.731mil,2150.95mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3330mil,1500mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3330mil,2030mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3330mil,620mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3360mil,720mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3370mil,1980mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3370mil,2510mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3399.206mil,2395.981mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3400mil,1930mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3400mil,900mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3410.414mil,1769.327mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3420mil,1530mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3420mil,2600mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3500mil,1780mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3540mil,1510mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3590mil,670mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3608.513mil,1698.13mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3623.806mil,2498.379mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3628.46mil,1415.089mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3630.619mil,2601.327mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3690mil,2390mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3692.764mil,2197.069mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3700mil,1530mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3707.83mil,2601.327mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3730mil,1590mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3740mil,2280mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3767.643mil,1184.585mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3770.327mil,2539.825mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3800mil,2330mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3800mil,930mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3820mil,1320mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3950mil,960mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (3980mil,560mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4167.165mil,230mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4270.757mil,4075.742mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4310mil,3960mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4320mil,2880mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4320mil,3050mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4360mil,2610mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4360mil,3130mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4364.18mil,3015.82mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4390mil,2370mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4400mil,3080mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4500mil,120mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4500mil,2430mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4500mil,590mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4540mil,1330mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4540mil,2970mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4555.61mil,1149.348mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4639.406mil,3056.752mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4640mil,3160mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4691.425mil,3023.635mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4810mil,3730mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4848.006mil,3092.858mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4848.095mil,2609.081mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4860mil,1880mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4870mil,2700mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4900mil,1840mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4910mil,1470mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4912.781mil,1530.736mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4916.79mil,229.024mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4960mil,1110mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (4960mil,950mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5073.224mil,3737.332mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5080mil,380mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5080mil,580mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5104.055mil,4486.09mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5110mil,3930mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5290.805mil,334.382mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5290mil,600mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5290mil,800mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5290mil,950mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5390mil,1750mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5398.01mil,2085.652mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5460mil,3400mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5460mil,3980mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5460mil,4480mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5487.5mil,1550mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5503.13mil,505.761mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5550mil,420mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5700mil,1010mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5700mil,2080mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5700mil,890mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5703.333mil,1939.726mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5890.772mil,4051.135mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5890mil,4470mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5920mil,1410mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (5930mil,970mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6090mil,890mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6140mil,1480mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6140mil,940mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6175.532mil,569.452mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6240mil,1440mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6330mil,640mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6330mil,840mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6370mil,1060mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6370mil,940mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6390mil,3670mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6390mil,680mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6720mil,1970mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6720mil,840mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6800mil,1350mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (6800mil,300mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7000mil,120mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7000mil,730mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7270mil,1170mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7270mil,350mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7270mil,610mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7270mil,730mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7280mil,4160mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7281.968mil,4318.972mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7360mil,2600mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7360mil,2830mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7450mil,1740mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7460mil,1010mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7602.301mil,690.206mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7606.608mil,1109.106mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7970mil,2240mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7970mil,2450mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7970mil,2640mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7990mil,1170mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (7990mil,760mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8025.645mil,2575.73mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8060mil,2130mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8060mil,2240mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8062.14mil,4581.765mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8063.792mil,3887.833mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8070mil,410mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8070mil,590mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (5.5mil < 6mil) Via (8180mil,2830mil) from Top Layer to Bottom Layer (Annular Ring=5.5mil) On (Top Layer)
-Rule Violations :206
+Rule Violations :8
 
 Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
    Violation between Hole Size Constraint: (147.638mil > 100mil) Pad J301-1(6450mil,4500mil) on Multi-Layer Actual Hole Size = 147.638mil
@@ -259,16 +50,11 @@ Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (2630mil,2630.157mil)(2642.835mil,2642.992mil) on Top Layer 
-   Violation between Net Antennae: Track (3232.788mil,2640mil)(3280mil,2640mil) on Top Layer 
-   Violation between Net Antennae: Track (8110mil,550mil)(8194.685mil,550mil) on Top Layer 
    Violation between Net Antennae: Via (2945.63mil,693.514mil) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (2945.63mil,841.151mil) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (3024.37mil,693.514mil) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (3024.37mil,841.151mil) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (3950mil,960mil) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (4167.165mil,230mil) from Top Layer to Bottom Layer 
-Rule Violations :9
+Rule Violations :4
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
@@ -281,6 +67,6 @@ Waived Violations Of Rule : Clearance Constraint (Gap=7mil) (All),(All)
 Waived Violations :4
 
 
-Violations Detected : 228
+Violations Detected : 14
 Waived Violations : 4
 Time Elapsed        : 00:00:01
