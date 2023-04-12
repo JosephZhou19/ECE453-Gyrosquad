@@ -1,0 +1,17 @@
+Added Pin To Net: NetName=24V Pin=U800-2
+Added Pin To Net: NetName=NetR800_2 Pin=U800-5
+Added Pin To Net: NetName=NetC806_2 Pin=U800-6
+Added Pin To Net: NetName=GND Pin=U800-7
+Added Pin To Net: NetName=NetC801_2 Pin=U800-8
+Added Pin To Net: NetName=GND Pin=U800-9
+Added Pin To Net: NetName=GND Pin=U800-9
+Added Pin To Net: NetName=GND Pin=U800-9
+Added Pin To Net: NetName=GND Pin=U800-9
+Added Pin To Net: NetName=GND Pin=U800-9
+Added Pin To Net: NetName=GND Pin=U800-9
+Added Pin To Net: NetName=NetC801_1 Pin=C801-1
+Added Pin To Net: NetName=NetC801_1 Pin=U800-1
+Added Net: Name=NetC801_1
+Added Pin To Net: NetName=NetC802_1 Pin=C802-1
+Added Pin To Net: NetName=NetC802_1 Pin=U800-4
+Added Net: Name=NetC802_1
